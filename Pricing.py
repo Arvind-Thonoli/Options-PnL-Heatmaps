@@ -10,7 +10,7 @@ from colorspacious import cspace_converter
 
 st.title("Options Heatmap")
 x = 10 #number of rows and coloumns for the heatmap 
-st.markdown(
+st.sidebar.markdown(
     "Created by Arvind Thonoli  |   [LinkedIn](https://www.linkedin.com/in/arvind-bijulal/)"
 )
 #INPUTS
@@ -166,3 +166,4 @@ ax4.set_xlabel('Volatility')
 ax4.set_ylabel('Stock Price')
 
 st.pyplot(plt.gcf())
+
