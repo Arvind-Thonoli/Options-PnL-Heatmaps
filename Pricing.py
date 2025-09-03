@@ -10,7 +10,9 @@ from colorspacious import cspace_converter
 
 st.title("Options Heatmap")
 x = 10 #number of rows and coloumns for the heatmap 
-st.sidebar.markdown("[Arvind Thonoli]('www.linkedin.com/in/arvind-bijulal/')")
+st.markdown(
+    "Created by Arvind Thonoli  |   [LinkedIn](https://www.linkedin.com/in/arvind-bijulal/)"
+)
 #INPUTS
 with st.sidebar:
     Strike_Price = st.number_input('Strike Price',min_value=1, value = 50,step=1)
@@ -162,4 +164,5 @@ fig.tight_layout()
 ax4.invert_yaxis()
 ax4.set_xlabel('Volatility')
 ax4.set_ylabel('Stock Price')
+
 st.pyplot(plt.gcf())
