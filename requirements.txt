@@ -1,4 +1,7 @@
 math
 streamlit
 numpy
+jax
 matplotlib
+scipy.stats
+colorspacious
