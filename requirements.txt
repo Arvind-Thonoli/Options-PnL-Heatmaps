@@ -1,7 +1,8 @@
 math
-streamlit
-numpy
 jax
 matplotlib
+streamlit
+numpy
 scipy.stats
 colorspacious
+matplotlib.colors
